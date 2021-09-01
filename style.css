@@ -1,0 +1,69 @@
+body {
+  background: rgba(36, 36, 36, 0.918);
+  color: #accfdd;
+}
+body h1 {
+  font-size: 45px;
+}
+body p {
+  font-size: larger;
+  margin-right: 5px;
+}
+
+#headHome {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+#headHome img {
+  height: 300px;
+  width: 300px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+.row span {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.row input {
+  background: none;
+  font-size: larger;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 2px #accfdd;
+  border-width: 1px;
+}
+.row input:hover {
+  border-color: var(--hover);
+}
+
+#btn {
+  text-align: center;
+  margin-top: 30px;
+}
+#btn button {
+  color: var(--color);
+  transition: 0.25s;
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+}
+#btn button:hover, #btn button:focus {
+  border-color: var(--hover);
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+.raise {
+  --color: #accfdd;
+  --hover: #aeacdd;
+}
+
+/*# sourceMappingURL=style.css.map */
