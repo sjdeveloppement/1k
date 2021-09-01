@@ -50,6 +50,10 @@ body p {
   border-color: var(--hover);
 }
 
+#radio {
+  display: block;
+}
+
 #btn {
   text-align: center;
   margin-top: 30px;
@@ -71,6 +75,10 @@ body p {
           box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
   -webkit-transform: translateY(-0.25em);
           transform: translateY(-0.25em);
+}
+
+.disabled {
+  display: none;
 }
 
 .raise {

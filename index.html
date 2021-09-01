@@ -12,14 +12,24 @@
     <main>
         <h1>How can i spend my money ?</h1>
         <div class="container">
-            <div class="row">
+            <div class="row" id="row">
                 <p>I've got :</p>
-                <input type="text" placeholder="1000€"><span>€</span>
+                <input  id ="input" type="text" placeholder="1000€"><span>€</span>
+                
             </div>
-            <div id="btn" ><button class="raise" >Spend</button></div>
+            
+                <!-- <div id="radio"> 
+                    <div class="value1"><input type="radio" name="spend" value="1k" id="1k"><label for="1k">1k</label></div>
+                    <div class="value2"><input type="radio" name="spend" value="10k" id="10k"><label for="10k">10k</label></div>
+                    <div class="valu3"><input type="radio" name="spend" value="100k" id="100k"><label for="100k">100k</label></div>
+                    
+                </div>-->
+                <div id="btn" ><button class="raise" type="submit">Spend</button></div>
+            <div id="result"></div>
+            <div id="replay" class="disabled" ><button>Replay</button></div>
         </div>
     </main>
     <footer></footer>
-    
+    <script src="index.js"></script>
 </body>
 </html>
