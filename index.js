@@ -87,7 +87,7 @@ function generateAnswer(){
         answer.remove();
         document.getElementById('replay').className = "hey";
         
-    },4000);
+    },6000);
 
 }
 replay.addEventListener("click", ()=>{
